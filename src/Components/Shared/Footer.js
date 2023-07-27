@@ -5,7 +5,7 @@ import { IoMailSharp } from "react-icons/io5";
 
 const Footer = () => {
     return (
-        <footer class="footer bg-blue-950 text-white justify-evenly">
+        <footer class="footer bg-neutral text-white justify-evenly">
     
         <div className='mt-12 mb-24'>
             <img className='w-40 h-44' src="https://i.ibb.co/1rWG0ZL/CJ-Logo-03.png"/>
