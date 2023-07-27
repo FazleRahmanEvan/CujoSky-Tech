@@ -150,7 +150,7 @@ const Content = () => {
 
     <div className="w-80 uigoldheight bg-base-100 shadow-xl border-4 rounded-lg border-primary mt-28 mb-40">
     <div className="text-center">
-<button className="bg-gray-200 hover:bg-gray-500 hover:text-white w-48 h-8 mt-20 text-xl ml-4 text-center font-semibold rounded">BRONZE PLAN</button>
+<button className="bg-gray-200 hover:bg-gray-500 hover:text-white w-48 h-8 mt-20 text-xl ml-4 text-center font-semibold rounded">GOLD PLAN</button>
 <p className='ml-6 mt-3'>Content Ranking Guarantee</p>
 <div className='divider'></div>
 <div>
