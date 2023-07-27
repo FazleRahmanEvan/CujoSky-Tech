@@ -1,0 +1,73 @@
+[
+    {
+        "id":1,
+        "image": "https://i.ibb.co/t4PDn57/blog-1.webp",
+        "title": "Lorem ipsum dolor sit amet consectetur. ",
+        "paragraph":"  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur dolores ex veritatis. Hic obcaecati doloremque facilis placeat dolor " 
+        
+    },
+    {
+        "id":2,
+        "image": "https://i.ibb.co/pdb0w4Q/blog2.png",
+        "title": "Lorem ipsum dolor sit amet consectetur.",
+        "paragraph":"  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur dolores ex veritatis. Hic obcaecati doloremque facilis placeat dolor " 
+        
+    },
+    {
+        "id":3,
+        "image": "https://i.ibb.co/MCwKmdJ/blog-3.jpg",
+        "title": "Lorem ipsum dolor sit amet consectetur. " ,
+        "paragraph":"  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur dolores ex veritatis. Hic obcaecati doloremque facilis placeat dolor " 
+        
+    },
+    {
+        "id":4,
+        "image": "https://i.ibb.co/KW3XHgf/blog-4.jpg",
+        "title": "Lorem ipsum dolor sit amet consectetur." ,
+        "paragraph":"  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur dolores ex veritatis. Hic obcaecati doloremque facilis placeat dolor" 
+        
+    },
+    {
+        "id":5,
+        "image": "https://i.ibb.co/pdb0w4Q/blog2.png",
+        "title": "Lorem ipsum dolor sit amet consectetur. ",
+        "paragraph":"  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur dolores ex veritatis. Hic obcaecati doloremque facilis placeat dolor"  
+        
+    },
+    {
+        "id":6,
+        "image": "https://i.ibb.co/t4PDn57/blog-1.webp",
+        "title": "Lorem ipsum dolor sit amet consectetur. ",
+        "paragraph":"  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur dolores ex veritatis. Hic obcaecati doloremque facilis placeat dolor "  
+        
+    },
+    {
+        "id":7,
+        "image": "https://i.ibb.co/MCwKmdJ/blog-3.jpg",
+        "title": "Lorem ipsum dolor sit amet consectetur. ",
+        "paragraph":"  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur dolores ex veritatis. Hic obcaecati doloremque facilis placeat dolor "  
+        
+    },
+    {
+        "id":8,
+        "image": "https://i.ibb.co/KW3XHgf/blog-4.jpg",
+        "title": "Lorem ipsum dolor sit amet consectetur. ",
+        "paragraph":"  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur dolores ex veritatis. Hic obcaecati doloremque facilis placeat dolor "  
+        
+    },
+    {
+        "id":9,
+        "image": "https://i.ibb.co/pdb0w4Q/blog2.png",
+        "title": "Lorem ipsum dolor sit amet consectetur. ",
+        "paragraph":"  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur dolores ex veritatis. Hic obcaecati doloremque facilis placeat dolor "  
+        
+    },
+    {
+        "id":10,
+        "image": "https://i.ibb.co/t4PDn57/blog-1.webp",
+        "title": "Lorem ipsum dolor sit amet consectetur. ",
+        "paragraph":"  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur dolores ex veritatis. Hic obcaecati doloremque facilis placeat dolor "  
+        
+    }
+    
+]
