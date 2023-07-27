@@ -16,7 +16,7 @@ const ContactUs = () => {
 
       <div className="flex flex-col justify-evenly mt-8 sm:flex-row pl-2">
         <div>
-          <img
+          <img alt=""
             src="https://i.ibb.co/rm66HcD/Contact-us.png"
             className="max-w-sm rounded-lg "
           />

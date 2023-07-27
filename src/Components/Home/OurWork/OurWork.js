@@ -35,7 +35,7 @@ const OurWork = () => {
    <section>
    <div class="hero min-screen mb-3 mt-3">
   <div class="hero-content flex-col lg:flex-row ">
-    <img src="https://i.ibb.co/ZfKF4ZX/Soft-Development.png" class="max-w-sm rounded-lg " />
+    <img alt='' src="https://i.ibb.co/ZfKF4ZX/Soft-Development.png" class="max-w-sm rounded-lg " />
     <div className=''>
       <h1 class="text-2xl font-bold text-center">Software Development</h1>
  <div class="px-20 py-4 mx-4">
