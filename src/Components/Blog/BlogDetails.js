@@ -28,7 +28,7 @@ const BlogDetails = () => {
             </div>
             
 
-   <div className='flex px-10  gap-2 mt-6 text-sm breadcrumbs'>
+   <div className='flex px-10  gap-2 mt-6 text-sm breadcrumbs '>
 
    <button className='flex gap-2 ml-20'>
     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
@@ -48,14 +48,14 @@ const BlogDetails = () => {
                 />)
                }
                  </div>
-
-                 <div class="card w-64 h-4/5 pb-4 mt-10 bg-base-100 shadow-xl hidden lg:flex">
+                  {/* fixed top-66 left-98 right-14 bottom-4 */}
+                 <div class="card w-64 h-4/5  pb-4 mt-10 bg-base-100 shadow-xl hidden lg:flex ">
                   <div class="card-body">
                    <h2 class="card-title mb-4 underline decoration-violet-500 underline-offset-[20px]">Latest Blogs</h2>
                    <div className='flex justify-evenly gap-2 mb-2'>
                    <div class="avatar">
                     <div class="w-12 rounded-full">
-                     <img src="https://placeimg.com/400/225/arch" />
+                     <img src="https://i.ibb.co/MCwKmdJ/blog-3.jpg" />
                      </div>
                        </div>
                        <div>
@@ -65,7 +65,7 @@ const BlogDetails = () => {
                    <div className='flex justify-evenly gap-2 mb-2'>
                    <div class="avatar">
                     <div class="w-12 rounded-full">
-                     <img src="https://placeimg.com/400/225/arch" />
+                     <img src="https://i.ibb.co/MCwKmdJ/blog-3.jpg" />
                      </div>
                        </div>
                        <div>
@@ -75,7 +75,7 @@ const BlogDetails = () => {
                    <div className='flex justify-evenly gap-2 mb-2'>
                    <div class="avatar">
                     <div class="w-12 rounded-full">
-                     <img src="https://placeimg.com/400/225/arch" />
+                     <img src="https://i.ibb.co/MCwKmdJ/blog-3.jpg" />
                      </div>
                        </div>
                        <div>
@@ -85,7 +85,7 @@ const BlogDetails = () => {
                    <div className='flex justify-evenly gap-2 mb-2'>
                    <div class="avatar">
                     <div class="w-12 rounded-full">
-                     <img src="https://placeimg.com/400/225/arch" />
+                     <img src="https://i.ibb.co/MCwKmdJ/blog-3.jpg" />
                      </div>
                        </div>
                        <div>
@@ -95,7 +95,7 @@ const BlogDetails = () => {
                    <div className='flex justify-evenly gap-2 mb-2'>
                    <div class="avatar">
                     <div class="w-12 rounded-full">
-                     <img src="https://placeimg.com/400/225/arch" />
+                     <img src="https://i.ibb.co/MCwKmdJ/blog-3.jpg" />
                      </div>
                        </div>
                        <div>

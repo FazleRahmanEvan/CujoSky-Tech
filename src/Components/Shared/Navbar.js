@@ -11,15 +11,15 @@ const Navbar = () => {
   <div class="flex-1 pl-10">
   <label tabindex="0" class="btn btn-ghost btn-circle w-36 h-36 avatar">
          <div class="navbar-start w-36 rounded-full ">
-           <img alt='' src="https://i.ibb.co/1rWG0ZL/CJ-Logo-03.png" />
+           <Link to='./'><img alt='' src="https://i.ibb.co/1rWG0ZL/CJ-Logo-03.png" /></Link>
          </div>
        </label>
   </div>
   <div class="flex-none hidden lg:flex">
     <ul class="menu menu-horizontal pr-8 font-medium text-xl">
       <li><Link to="/">Home</Link></li>
-      <li><a href="#ourBlog">Blogs</a></li>
-      <li><a href="#ourWorks">Our Works</a></li>
+      <li><a href="blogs">Blogs</a></li>
+      <li><a href="/ourWork">Our Works</a></li>
       <li><a href="/ourPrice">Our Services</a></li>
     </ul>
     
@@ -31,8 +31,8 @@ const Navbar = () => {
       </label>
       <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 shadow bg-base-100 rounded-box w-40">
       <li><Link to="/">Home</Link></li>
-      <li><a href="#ourBlog">Blogs</a></li>
-      <li><a href="#ourWorks">Our Works</a></li>
+      <li><a href="blogs">Blogs</a></li>
+      <li><a href="/ourWork">Our Works</a></li>
       <li><a href="/ourPrice">Our Services</a></li>
       </ul>
     </div>

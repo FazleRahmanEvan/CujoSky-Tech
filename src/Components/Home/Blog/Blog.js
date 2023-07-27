@@ -87,13 +87,18 @@ const Blog = () => {
     };
 
     return (
-      
-       <section id='ourBlog' className='bg-slate-50 mt-3 text-center font-abc mb-4 mx-12 '>
-        <h1 className='text-3xl text-center font-semibold underline decoration-violet-500 underline-offset-[20px] mb-7'>Latest Blog Post</h1>
-        <p className=' text-center  mb-7 mt-5'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat ratione deserunt molestiae error. Ipsa, dolorum!</p>
-        
+      <div className=''>
+              <section  className=' bg-slate-50 text-center font-abc mb-20 mx-12 mt-20'>
+                <div className=''>
+                  <br />
+                  <br />
+                <h1 className='text-4xl mt-6 text-center font-semibold underline decoration-violet-500 underline-offset-[20px] mb-7'>Latest Blog Post</h1>
+        <p className=' text-center mb-7 mt-10'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat ratione deserunt molestiae error. Ipsa, dolorum!</p>
        
-       <div className='gap-3 text-center  mb-10 mt-8'>
+                </div>
+       
+       
+       <div className='text-center mb-10 mt-8'>
              <div className="justify-center">
              <Slider {...settings}>
 
@@ -112,6 +117,9 @@ const Blog = () => {
         <button className='text-white  btn-sm btn-primary rounded-full mt-3  mb-10'><Link to="/blogs">View More</Link></button>
       
        </section>
+      </div>
+
+   
     );
 };
 

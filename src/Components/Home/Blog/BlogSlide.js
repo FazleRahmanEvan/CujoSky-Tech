@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const BlogSlide = ({ blog }) => {
   const { image, title } = blog;
   return (
-<div className="pl-20 ">
-<div  class="card mt-10 w-56 h-72 bg-base-100 shadow-xl mb-8">
+<div className="pl-20 px-24">
+<div  class="card mt-10 w-80 h-96 bg-base-100 shadow-xl mb-8">
       <figure>
         <img src={image} alt="Shoes" />
       </figure>

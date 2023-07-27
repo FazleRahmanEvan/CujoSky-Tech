@@ -200,7 +200,7 @@ const Artical = () => {
        <div className='flex justify-evenly gap-2 mb-2'>
        <div class="avatar">
         <div class="w-12 rounded-full">
-         <img src="https://placeimg.com/400/225/arch" />
+         <img src="https://i.ibb.co/pdb0w4Q/blog2.png" />
          </div>
            </div>
            <div>
@@ -210,7 +210,7 @@ const Artical = () => {
        <div className='flex justify-evenly gap-2 mb-2'>
        <div class="avatar">
         <div class="w-12 rounded-full">
-         <img src="https://placeimg.com/400/225/arch" />
+         <img src="https://i.ibb.co/pdb0w4Q/blog2.png" />
          </div>
            </div>
            <div>
@@ -220,7 +220,7 @@ const Artical = () => {
        <div className='flex justify-evenly gap-2 mb-2'>
        <div class="avatar">
         <div class="w-12 rounded-full">
-         <img src="https://placeimg.com/400/225/arch" />
+         <img src="https://i.ibb.co/pdb0w4Q/blog2.png" />
          </div>
            </div>
            <div>
@@ -230,7 +230,7 @@ const Artical = () => {
        <div className='flex justify-evenly gap-2 mb-2'>
        <div class="avatar">
         <div class="w-12 rounded-full">
-         <img src="https://placeimg.com/400/225/arch" />
+         <img src="https://i.ibb.co/pdb0w4Q/blog2.png" />
          </div>
            </div>
            <div>
@@ -240,7 +240,7 @@ const Artical = () => {
        <div className='flex justify-evenly gap-2 mb-2'>
        <div class="avatar">
         <div class="w-12 rounded-full">
-         <img src="https://placeimg.com/400/225/arch" />
+         <img src="https://i.ibb.co/pdb0w4Q/blog2.png" />
          </div>
            </div>
            <div>

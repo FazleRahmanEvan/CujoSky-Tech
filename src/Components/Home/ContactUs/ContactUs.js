@@ -3,7 +3,7 @@ import React from "react";
 const ContactUs = () => {
   return (
     <section className="mt-5 font-abc shadow-xl w-auto  ">
-      <h1 className="text-3xl text-center font-semibold   mb-2 mt-8">
+      <h1 className="text-4xl text-center font-semibold   mb-2 mt-8">
         Contact{" "}
         <span className="underline decoration-violet-500 underline-offset-[20px]">
           With Our
@@ -46,7 +46,7 @@ const ContactUs = () => {
               rows={6}
             ></textarea>
           </div>
-          <button className="text-start mt-5 btn btn-sm uppercase text-white rounded-full py-1 bg-gradient-to-br from-primary to-secondary pr-10 pl-10 mb-8">
+          <button className="text-start mt-5 btn btn-sm uppercase text-white rounded-full py-1 bg-gradient-to-br from-primary to-secondary pr-10 pl-10 mb-28">
             Submit
           </button>
         </div>
