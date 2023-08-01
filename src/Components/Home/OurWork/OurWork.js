@@ -38,9 +38,14 @@ const OurWork = () => {
     <img alt='' src="https://i.ibb.co/ZfKF4ZX/Soft-Development.png" class="max-w-sm rounded-lg " />
     <div className=''>
       <h1 class="text-2xl font-bold text-center">Software Development</h1>
- <div class="px-20 py-4 mx-4">
- <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, necessitatibus a quis possimus veniam veritatis repudiandae rerum, dolore itaque nulla recusandae, perspiciatis temporibus nemo. Molestias repellat mollitia repudiandae hic quis.</p>
-      <button class="text-white btn-sm btn-primary rounded-full mt-3"><Link to="/ourWork">See More</Link></button>
+ <div class="px-20 py-4 mx-4 text-justify">
+ <p >Looking for a reliable software development company? CujoSky Tech
+can help you with all your software development needs. Our experienced developers can build
+custom software solutions that meet your specific requirements. Whether you need a new
+website, mobile app, or enterprise-level software, we can help.</p>
+<div className='text-center'>
+<button class="text-white text-center btn-sm btn-primary rounded-full mt-3"><Link to="/ourWork">See More</Link></button>
+</div>
  </div>
   
     </div>
@@ -54,9 +59,14 @@ const OurWork = () => {
     <img src="https://i.ibb.co/QQ2MMf6/Web-Desgin.png" class="max-w-sm rounded-lg " />
     <div>
       <h1 class="text-2xl font-bold text-center">Web Design</h1>
-      <div class="px-20 py-4 mx-4">
- <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, necessitatibus a quis possimus veniam veritatis repudiandae rerum, dolore itaque nulla recusandae, perspiciatis temporibus nemo. Molestias repellat mollitia repudiandae hic quis.</p>
-      <button class="text-white btn-sm btn-primary rounded-full mt-3"><Link to="/ourWork">See More</Link></button>
+      <div class="px-20 py-4 mx-4 text-justify">
+ <p >Needs a best web design agency that can help you create a beautiful, functional,
+and SEO-friendly website? Look no further than CujoSky Tech. We have a team of experienced
+designers and developers who can create a website that meets your needs and exceeds your
+expectations.</p>
+<div className='text-center'>
+<button class="text-white text-center btn-sm btn-primary rounded-full mt-3"><Link to="/ourWork">See More</Link></button>
+</div>
  </div>
     </div>
   </div>
@@ -68,9 +78,14 @@ const OurWork = () => {
     <img src="https://i.ibb.co/CBzhH9n/App-develop.png" class="max-w-sm rounded-lg " />
     <div className=''>
       <h1 class="text-2xl font-bold text-center">App Development</h1>
- <div class="px-20 py-4 mx-4">
- <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, necessitatibus a quis possimus veniam veritatis repudiandae rerum, dolore itaque nulla recusandae, perspiciatis temporibus nemo. Molestias repellat mollitia repudiandae hic quis.</p>
-      <button class="text-white btn-sm btn-primary rounded-full mt-3"><Link to="/ourWork">See More</Link></button>
+ <div class="px-20 py-4 mx-4 text-justify">
+ <p >CujoSky Tech is a leading mobile app development company that provides
+custom app development services for businesses of all sizes. Our developers have a proven
+track record of success in developing high-quality, user-friendly apps that meet the specific
+needs of our clients.</p>
+ <div className='text-center'>
+<button class="text-white text-center btn-sm btn-primary rounded-full mt-3"><Link to="/ourWork">See More</Link></button>
+</div>
  </div>
   
     </div>
@@ -85,8 +100,14 @@ const OurWork = () => {
     <div>
       <h1 class="text-2xl font-bold text-center">Digital Marketing</h1>
       <div class="px-20 py-4 mx-4">
- <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, necessitatibus a quis possimus veniam veritatis repudiandae rerum, dolore itaque nulla recusandae, perspiciatis temporibus nemo. Molestias repellat mollitia repudiandae hic quis.</p>
-      <button class="text-white btn-sm btn-primary rounded-full mt-3"><Link to="/ourWork">See More</Link></button>
+ <p >We are also a creative digital marketing agency that helps businesses to
+grow their online presence and achieve their marketing goals. We understand that every
+business is different, and we work closely with our clients to develop customized marketing
+strategies that meet their specific needs.
+</p>
+ <div className='text-center'>
+<button class="text-white text-center btn-sm btn-primary rounded-full mt-3"><Link to="/ourWork">See More</Link></button>
+</div>
  </div>
     </div>
   </div>

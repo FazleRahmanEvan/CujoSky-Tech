@@ -55,7 +55,8 @@ const Client = () => {
     return (
         <div className=' mb-12 p-10'>
             <h1 className='text-4xl text-center text-bold mb-7 font-semibold underline decoration-violet-500 underline-offset-[20px] '>Our Clients</h1>
-            <p className='text-center mb-14'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, nihil dolorum odio voluptate atque illo ad voluptatum! Accusamus, consequuntur sed?</p>
+            <p className='text-center mb-14'>Clients trust CujoSky to deliver high-quality IT services that help them achieve
+their business goals.</p>
             
 
           

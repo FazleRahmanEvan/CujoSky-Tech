@@ -92,14 +92,16 @@ const Blog = () => {
                 <div className=''>
                   <br />
                   <br />
-                <h1 className='text-4xl mt-6 text-center font-semibold underline decoration-violet-500 underline-offset-[20px] mb-7'>Latest Blog Post</h1>
-        <p className=' text-center mb-7 mt-10'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat ratione deserunt molestiae error. Ipsa, dolorum!</p>
+                <h1 className='text-4xl mt-6 text-center font-semibold lg:underline decoration-violet-500 underline-offset-[20px] sm:underline-none mb-7'>Latest Blog Post</h1>
+        <p className='lg:px-96 sm:px-16 mb-7 mt-10 text-justify'>Want to learn more about technology, IT, or software in general? Check out
+our informative and engaging blogs for valuable insights, tips, and industry updates!
+</p>
        
                 </div>
        
        
        <div className='text-center mb-10 mt-8'>
-             <div className="justify-center">
+             <div className="justify-center-evenly">
              <Slider {...settings}>
 
               {

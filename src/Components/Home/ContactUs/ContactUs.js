@@ -11,7 +11,8 @@ const ContactUs = () => {
         Team
       </h1>
       <p className="text-center text-gray-400 mt-8">
-        If you are planning or developing a product, our team will reach you.
+      Contact us today to learn more about how we can help you with your IT
+       needs.
       </p>
 
       <div className="flex flex-col justify-evenly mt-8 sm:flex-row pl-2">

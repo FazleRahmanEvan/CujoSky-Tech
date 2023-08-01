@@ -14,6 +14,7 @@ import Navbar from './Components/Shared/Navbar';
 import OurPrice from './Components/OurPrice/OurPrice';
 import UIUXDesign from './Components/OurPrice/UIUXDesign/UIUXDesign';
 import Content from './Components/OurPrice/Content/Content';
+import About from './Components/Home/About/About';
 
 // import About from './Pages/About';
 
@@ -26,6 +27,7 @@ function App() {
 <Route path="/blogs" element ={<BlogDetails></BlogDetails>}></Route>
 <Route path="/ourWork" element ={<AllWork></AllWork>}></Route>
 <Route path="/ourPrice" element ={<OurPrice></OurPrice>}></Route>
+<Route path="/about" element ={<About></About>}></Route>
 <Route path="/ourContent" element ={<Content></Content>}></Route>
 <Route path="/uiuxDesign" element ={<UIUXDesign></UIUXDesign>}></Route>
 <Route path="/article" element ={<Artical></Artical>}></Route>

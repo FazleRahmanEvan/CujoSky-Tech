@@ -19,6 +19,7 @@ const Navbar = () => {
     <ul class="menu menu-horizontal pr-8 font-medium text-xl">
       <li><Link to="/">Home</Link></li>
       <li><a href="blogs">Blogs</a></li>
+      <li><a href="/about">About</a></li>
       <li><a href="/ourWork">Our Works</a></li>
       <li><a href="/ourPrice">Our Services</a></li>
     </ul>
@@ -32,6 +33,7 @@ const Navbar = () => {
       <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 shadow bg-base-100 rounded-box w-40">
       <li><Link to="/">Home</Link></li>
       <li><a href="blogs">Blogs</a></li>
+      <li><a href="/about">About</a></li>
       <li><a href="/ourWork">Our Works</a></li>
       <li><a href="/ourPrice">Our Services</a></li>
       </ul>
