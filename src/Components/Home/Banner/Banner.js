@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div class="hero bg-white font-abc mt-16">
+        <div class="hero bg-white font-abc mt-20">
   <div class="hero-content flex lg:gap-80 sm:gap-28  flex-col lg:flex-row-reverse">
     <img  alt='' src="https://i.ibb.co/r0Vyhqs/Banner-Image.png" class="max-w-sm rounded-lg " />
     <div>
