@@ -2,6 +2,7 @@ import React from 'react';
 import { FaFacebookF, FaLinkedin,FaPhoneAlt} from "react-icons/fa"
 import { ImLocation } from "react-icons/im";
 import { IoMailSharp } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -20,10 +21,13 @@ const Footer = () => {
         
         </div> 
         <div className='mt-36 mb-20'>
-          <span class="footer-title">Links</span> 
-          <a class="link link-hover">Home</a> 
-          <a class="link link-hover mt-4">Blogs</a> 
-          <a class="link link-hover mt-4">Our Works</a> 
+          
+        <Link to="/"><a class="link link-hover mt-4">Home</a></Link>
+        <Link to="/blogs"> <a class="link link-hover mt-4">Blogs</a></Link>
+        <Link to="/about"><a class="link link-hover mt-4">About</a> </Link>
+        <Link to="/ourWork"> <a class="link link-hover mt-4">Our Works</a> </Link>
+        <Link to="/ourPrice"> <a class="link link-hover mt-4">Our Services</a> </Link>
+     
         </div> 
         <div className='mt-36 mb-20'>
           <span class="footer-title">Contact Us</span> 
@@ -49,3 +53,9 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+
+
+// Virtual Reality (VR) and Augmented Reality (AR) apps: VR and AR are two of the most exciting technologies on the market, and they have the potential to revolutionize the way we interact with apps. VR apps can transport users to new and immersive worlds, while AR apps can overlay digital information onto the real world.
+

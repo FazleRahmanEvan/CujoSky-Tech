@@ -14,7 +14,8 @@ import Navbar from './Components/Shared/Navbar';
 import OurPrice from './Components/OurPrice/OurPrice';
 import UIUXDesign from './Components/OurPrice/UIUXDesign/UIUXDesign';
 import Content from './Components/OurPrice/Content/Content';
-import About from './Components/Home/About/About';
+import About from './Components/About/About';
+
 
 // import About from './Pages/About';
 

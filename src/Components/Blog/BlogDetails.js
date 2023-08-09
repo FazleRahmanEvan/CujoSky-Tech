@@ -11,7 +11,7 @@ const BlogDetails = () => {
         .then(data => setBlogs(data));
     }, [])
     return (
-        <div className='font-abc mt-8'>
+        <div className='font-abc lg:mt-12 mt-28 '>
             <div  className='flex bg-zinc-900 mb-4 justify-evenly flex-col lg:flex-row p-6'>
                 <div>
                 <h1 className='text-2xl font-semibold font-abc text-white'>Stay informed on our articles or events!</h1>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const SEOPriceCard = () => {
     return (
-        <div className='grid grid-cols-3 lg:ml-32 px-20'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 lg:ml-32 lg:px-20 px-6'>
             <div className="card w-80 bg-base-100 shadow-xl border-4 border-primary mt-24 mb-28">
   <div className="card-body ml-4">
   <button className="bg-gray-200 hover:bg-gray-500 hover:text-white w-48 h-8 mt-6 text-xl ml-4 text-center font-semibold rounded">BRONZE PLAN</button>

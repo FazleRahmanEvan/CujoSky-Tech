@@ -2,8 +2,11 @@
     {
         "id":1,
         "image": "https://i.ibb.co/t4PDn57/blog-1.webp",
-        "title": "Lorem ipsum dolor sit amet consectetur. ",
-        "paragraph":"  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur dolores ex veritatis. Hic obcaecati doloremque facilis placeat dolor " 
+        "title": "Best and Unique App Ideas in 2024 for Startups",
+        "paragraph":"The app market is constantly evolving, and with it, the demand for new and innovative appideas. If you're a startup looking to develop an app, you'll need to come up with an idea that isboth unique and high demand." ,
+        "title1":"Here are some of the best and most unique app ideas in 2024 for startups:",
+        "paragraph1A":"1.Virtual Reality (VR) and Augmented Reality (AR) apps: VR and AR are two of the most exciting technologies on the market, and they have the potential to revolutionize the way we interact with apps. VR apps can transport users to new and immersive worlds, while AR apps can overlay digital information onto the real world. "
+        
         
     },
     {
@@ -71,3 +74,5 @@
     }
     
 ]
+
+
