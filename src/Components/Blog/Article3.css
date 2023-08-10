@@ -1,0 +1,9 @@
+.cardWidth3{
+    width: 700px;
+}
+@media screen and (max-width: 480px) {
+   .cardWidth3{
+    width: 384px;
+   }
+   
+}

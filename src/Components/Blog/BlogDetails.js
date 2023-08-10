@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import BlogCards from './BlogCards';
+import LatestSideBlog from './LatestSideBlog';
 
 const BlogDetails = () => {
     const [blogs, setBlogs]=useState([]);
-
+   
     useEffect ( () => {
         fetch('blog.json')
         .then(res => res.json())
@@ -41,70 +42,45 @@ const BlogDetails = () => {
           
            <div className='flex justify-center justify-evenly'>
            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20'>
-            {
+            {/* {
                 blogs.map(blog =><BlogCards
                 key={blog.id}
                 blog={blog}
                 />)
-               }
+               } */}
+               <div className="card w-80 mb-5 mt-10 bg-base-100 shadow-2xl">
+            <figure><img src="https://i.ibb.co/jwtszNJ/Frame-75-1.png" alt="" /></figure>
+  <div class="card-body">
+    <h2 class="card-title">Best and Unique App Ideas in 2024 for Startups</h2>
+    <p>The app market is constantly evolving, and with it, the demand for new and innovative appideas. If you're a startup looking to develop an app, you'll need to come up with an idea that isboth unique and high demand.</p>
+    <div class="card-actions justify-end mt-3">
+          <button class="btn btn-xs btn-primary btn-rounded"><Link to ="/article1">See More</Link></button>
+        </div>
+  </div>
+        </div>
+                <div className="card w-80 mb-5 mt-10 bg-base-100 shadow-2xl">
+            <figure><img src="https://i.ibb.co/F6m0f2n/Frame-75.png" alt="" /></figure>
+  <div class="card-body">
+    <h2 class="card-title">How to Hire the Best Software Company for Your Startup</h2>
+    <p>Hiring a software company is a big decision for any startup. You need to find a company that can understand your vision, deliver high-quality work on time and within budget, and be a good partner as your business grows.</p>
+    <div class="card-actions justify-end mt-3">
+          <button class="btn btn-xs btn-primary btn-rounded"><Link to ="/article2">See More</Link></button>
+        </div>
+  </div>
+        </div>
+               <div className="card w-80 mb-5 mt-10 bg-base-100 shadow-2xl">
+            <figure><img src="https://i.ibb.co/5rw4xVB/Frame-75-2.png" alt="" /></figure>
+  <div class="card-body">
+    <h2 class="card-title">How to Find the Right Digital Marketing Agency forYour E Commerce Business </h2>
+    <p>E-commerce businesses are booming, and with that comes the need for effective digitalmarketing. If you're looking to grow your e-commerce business, you need to partner with adigital marketing agency that can help you reach your target audience and drive sales</p>
+    <div class="card-actions justify-end mt-3">
+          <button class="btn btn-xs btn-primary btn-rounded"><Link to ="/article3">See More</Link></button>
+        </div>
+  </div>
+        </div> 
                  </div>
                   {/* fixed top-66 left-98 right-14 bottom-4 */}
-                 <div class="card w-64 h-4/5  pb-4 mt-10 bg-base-100 shadow-xl hidden lg:flex ">
-                  <div class="card-body">
-                   <h2 class="card-title mb-4 underline decoration-violet-500 underline-offset-[20px]">Latest Blogs</h2>
-                   <div className='flex justify-evenly gap-2 mb-2'>
-                   <div class="avatar">
-                    <div class="w-12 rounded-full">
-                     <img src="https://i.ibb.co/MCwKmdJ/blog-3.jpg" />
-                     </div>
-                       </div>
-                       <div>
-                     <p className='text-xs font-semibold'>Lorem, ipsum dolor sit amet consectetur.</p>
-                       </div>
-                   </div>
-                   <div className='flex justify-evenly gap-2 mb-2'>
-                   <div class="avatar">
-                    <div class="w-12 rounded-full">
-                     <img src="https://i.ibb.co/MCwKmdJ/blog-3.jpg" />
-                     </div>
-                       </div>
-                       <div>
-                     <p className='text-xs font-semibold'>Lorem, ipsum dolor sit amet consectetur.</p>
-                       </div>
-                   </div>
-                   <div className='flex justify-evenly gap-2 mb-2'>
-                   <div class="avatar">
-                    <div class="w-12 rounded-full">
-                     <img src="https://i.ibb.co/MCwKmdJ/blog-3.jpg" />
-                     </div>
-                       </div>
-                       <div>
-                     <p className='text-xs font-semibold'>Lorem, ipsum dolor sit amet consectetur.</p>
-                       </div>
-                   </div>
-                   <div className='flex justify-evenly gap-2 mb-2'>
-                   <div class="avatar">
-                    <div class="w-12 rounded-full">
-                     <img src="https://i.ibb.co/MCwKmdJ/blog-3.jpg" />
-                     </div>
-                       </div>
-                       <div>
-                     <p className='text-xs font-semibold'>Lorem, ipsum dolor sit amet consectetur.</p>
-                       </div>
-                   </div>
-                   <div className='flex justify-evenly gap-2 mb-2'>
-                   <div class="avatar">
-                    <div class="w-12 rounded-full">
-                     <img src="https://i.ibb.co/MCwKmdJ/blog-3.jpg" />
-                     </div>
-                       </div>
-                       <div>
-                     <p className='text-xs font-semibold'>Lorem, ipsum dolor sit amet consectetur.</p>
-                       </div>
-                   </div>
-   
-                   </div>
-                   </div>
+               <LatestSideBlog></LatestSideBlog>
         </div>
            
         

@@ -1,0 +1,12 @@
+.cardWidth2{
+    width: 700px;
+}
+@media screen and (max-width: 480px) {
+   .cardWidth2{
+    width: 384px;
+   }
+   
+}
+
+
+
