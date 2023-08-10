@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Management = () => {
     return (
         <div>
-             <div class="carousel  w-full mt-8 mb-7">
+             <div class="carousel  w-full mt-28 mb-7">
         <div id="slide1" class="carousel-item relative  w-full">
           <img src="https://i.ibb.co/vwJ8MLj/Website-workbanner.png" class="w-full" />
         </div> 
