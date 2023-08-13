@@ -30,63 +30,63 @@ const AllWork = () => {
     <div className='grid  justify-center grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-28 mb-10 mt-10'>
 
     <div class="card card-compact w-96 bg-base-100 shadow-xl ">
-  -         <figure><img src="https://i.ibb.co/r4qvvpW/Web-2.png" alt="Shoes" /></figure>
+         <figure><img src="https://i.ibb.co/r4qvvpW/Web-2.png" alt="Shoes" /></figure>
         <div class="card-body">
-             <h2 class="card-title">gAbroad</h2>
+             <h2 class="card-title">Gabroad</h2>
              <p className='text-gray font-medium'>Consultancy Site</p>  
         </div>
         </div>
         <div class="card card-compact w-96 bg-base-100 shadow-xl ">
-  -         <figure><img src="https://i.ibb.co/sQ36fFw/Web-3.png" alt="Shoes" /></figure>
+         <figure><img src="https://i.ibb.co/sQ36fFw/Web-3.png" alt="Shoes" /></figure>
         <div class="card-body">
              <h2 class="card-title">Suit Resort</h2>
              <p className='text-gray font-medium'>Resort & Restaurant Site</p>  
         </div>
         </div>
         <div class="card card-compact w-96 bg-base-100 shadow-xl ">
-  -         <figure><img src="https://i.ibb.co/85q7JXC/Web-1.jpg" alt="Shoes" /></figure>
+        <figure><img src="https://i.ibb.co/85q7JXC/Web-1.jpg" alt="Shoes" /></figure>
         <div class="card-body">
              <h2 class="card-title">MeetTech Lab</h2>
              <p className='text-gray font-medium'>Tech Site</p>  
         </div>
         </div>
         <div class="card card-compact w-96 bg-base-100 shadow-xl ">
-  -         <figure><img src="https://i.ibb.co/xGxFNFW/Web-4.jpg" alt="Shoes" /></figure>
+          <figure><img src="https://i.ibb.co/xGxFNFW/Web-4.jpg" alt="Shoes" /></figure>
         <div class="card-body">
              <h2 class="card-title">Vegan Mart</h2>
              <p className='text-gray font-medium'>E-Commerce Site</p>  
         </div>
         </div>
         <div class="card card-compact w-96 bg-base-100 shadow-xl ">
-  -         <figure><img src="https://i.ibb.co/Lpm99HR/Manage-1.jpg" alt="Shoes" /></figure>
+          <figure><img src="https://i.ibb.co/Lpm99HR/Manage-1.jpg" alt="Shoes" /></figure>
         <div class="card-body">
              <h2 class="card-title">Document Equity</h2>
              <p className='text-gray font-medium'>Project Type</p>  
         </div>
         </div>
         <div class="card card-compact w-96 bg-base-100 shadow-xl ">
-  -         <figure><img src="https://i.ibb.co/pvq8wGf/Manage-2.jpg" alt="Shoes" /></figure>
+          <figure><img src="https://i.ibb.co/pvq8wGf/Manage-2.jpg" alt="Shoes" /></figure>
         <div class="card-body">
              <h2 class="card-title">Resort Dashboard</h2>
              <p className='text-gray font-medium'>Project Type</p>  
         </div>
         </div>
         <div class="card card-compact w-96 bg-base-100 shadow-xl ">
-  -         <figure><img src="https://i.ibb.co/qdBSkdB/Manage-3.png" alt="Shoes" /></figure>
+         <figure><img src="https://i.ibb.co/qdBSkdB/Manage-3.png" alt="Shoes" /></figure>
         <div class="card-body">
              <h2 class="card-title">Mediinfi</h2>
              <p className='text-gray font-medium'>Project Type</p>  
         </div>
         </div>
         <div class="card card-compact w-96 bg-base-100 shadow-xl ">
-  -         <figure><img src="https://i.ibb.co/TkHKTGS/Manage-4.jpg" alt="Shoes" /></figure>
+        <figure><img src="https://i.ibb.co/TkHKTGS/Manage-4.jpg" alt="Shoes" /></figure>
         <div class="card-body">
              <h2 class="card-title">Dream Solution</h2>
              <p className='text-gray font-medium'>Project Type</p>  
         </div>
         </div>
         <div class="card card-compact w-96 bg-base-100 shadow-xl ">
-  -         <figure><img src="https://i.ibb.co/j6hbV0S/App-4.jpg" alt="Shoes" /></figure>
+          <figure><img src="https://i.ibb.co/j6hbV0S/App-4.jpg" alt="Shoes" /></figure>
         <div class="card-body">
              <h2 class="card-title">Sareng</h2>
              <p className='text-gray font-medium'>Project Type</p>  
