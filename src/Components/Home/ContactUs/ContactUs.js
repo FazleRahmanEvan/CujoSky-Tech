@@ -1,6 +1,19 @@
-import React from "react";
-
+import React, { useRef } from "react";
+import emailjs from '@emailjs/browser';
 const ContactUs = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('gmail','CujoSky', e.target, 'Nk8k9Ap_fZYvnj-Mr')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+  };
   return (
     <section className="mt-5 font-abc shadow-xl w-auto  ">
       <h1 className="text-4xl text-center font-semibold   mb-2 mt-8">
@@ -22,6 +35,7 @@ const ContactUs = () => {
             className="max-w-sm rounded-lg "
           />
         </div>
+        <form id='contact' ref={form} onSubmit={sendEmail} >
         <div className="sm:text-center">
           <h1 className="text-start text-gray-400 text-xl font-medium mb-5 ">
             Get in Touch
@@ -51,6 +65,7 @@ const ContactUs = () => {
             Submit
           </button>
         </div>
+        </form>
       </div>
     </section>
   );

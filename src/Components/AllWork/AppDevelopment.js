@@ -34,26 +34,26 @@ const AppDevelopment = () => {
       
       
         <div class="card card-compact w-96 bg-base-100 shadow-xl ">
+  -         <figure><img src="https://i.ibb.co/j6hbV0S/App-4.jpg" alt="Shoes" /></figure>
+        <div class="card-body">
+             <h2 class="card-title">Sareng</h2>
+             <p className='text-gray font-medium'>Project Type</p>  
+        </div>
+        </div>
+        {/* <div class="card card-compact w-96 bg-base-100 shadow-xl ">
   -         <figure><img src="https://i.ibb.co/gyFWdN2/software.jpg" alt="Shoes" /></figure>
         <div class="card-body">
              <h2 class="card-title">Project Name</h2>
              <p className='text-gray font-medium'>Project Type</p>  
         </div>
-        </div>
-        <div class="card card-compact w-96 bg-base-100 shadow-xl ">
+        </div> */}
+        {/* <div class="card card-compact w-96 bg-base-100 shadow-xl ">
   -         <figure><img src="https://i.ibb.co/gyFWdN2/software.jpg" alt="Shoes" /></figure>
         <div class="card-body">
              <h2 class="card-title">Project Name</h2>
              <p className='text-gray font-medium'>Project Type</p>  
         </div>
-        </div>
-        <div class="card card-compact w-96 bg-base-100 shadow-xl ">
-  -         <figure><img src="https://i.ibb.co/gyFWdN2/software.jpg" alt="Shoes" /></figure>
-        <div class="card-body">
-             <h2 class="card-title">Project Name</h2>
-             <p className='text-gray font-medium'>Project Type</p>  
-        </div>
-        </div>
+        </div> */}
     </div>
     </div>
         </div>

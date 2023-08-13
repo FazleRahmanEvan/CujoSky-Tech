@@ -33,30 +33,30 @@ const Management = () => {
       
       
         <div class="card card-compact w-96 bg-base-100 shadow-xl ">
-  -         <figure><img src="https://i.ibb.co/gyFWdN2/software.jpg" alt="Shoes" /></figure>
+  -         <figure><img src="https://i.ibb.co/Lpm99HR/Manage-1.jpg" alt="Shoes" /></figure>
         <div class="card-body">
-             <h2 class="card-title">Project Name</h2>
+             <h2 class="card-title">Document Equity</h2>
              <p className='text-gray font-medium'>Project Type</p>  
         </div>
         </div>
         <div class="card card-compact w-96 bg-base-100 shadow-xl ">
-  -         <figure><img src="https://i.ibb.co/gyFWdN2/software.jpg" alt="Shoes" /></figure>
+  -         <figure><img src="https://i.ibb.co/pvq8wGf/Manage-2.jpg" alt="Shoes" /></figure>
         <div class="card-body">
-             <h2 class="card-title">Project Name</h2>
+             <h2 class="card-title">Resort Dashboard</h2>
              <p className='text-gray font-medium'>Project Type</p>  
         </div>
         </div>
         <div class="card card-compact w-96 bg-base-100 shadow-xl ">
-  -         <figure><img src="https://i.ibb.co/gyFWdN2/software.jpg" alt="Shoes" /></figure>
+  -         <figure><img src="https://i.ibb.co/qdBSkdB/Manage-3.png" alt="Shoes" /></figure>
         <div class="card-body">
-             <h2 class="card-title">Project Name</h2>
+             <h2 class="card-title">Mediinfi</h2>
              <p className='text-gray font-medium'>Project Type</p>  
         </div>
         </div>
         <div class="card card-compact w-96 bg-base-100 shadow-xl ">
-  -         <figure><img src="https://i.ibb.co/gyFWdN2/software.jpg" alt="Shoes" /></figure>
+  -         <figure><img src="https://i.ibb.co/TkHKTGS/Manage-4.jpg" alt="Shoes" /></figure>
         <div class="card-body">
-             <h2 class="card-title">Project Name</h2>
+             <h2 class="card-title">Dream Solution</h2>
              <p className='text-gray font-medium'>Project Type</p>  
         </div>
         </div>

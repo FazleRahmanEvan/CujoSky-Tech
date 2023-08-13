@@ -34,24 +34,31 @@ const WebDesign = () => {
       
       
         <div class="card card-compact w-96 bg-base-100 shadow-xl ">
-  -         <figure><img src="https://i.ibb.co/gyFWdN2/software.jpg" alt="Shoes" /></figure>
+  -         <figure><img src="https://i.ibb.co/85q7JXC/Web-1.jpg" alt="Shoes" /></figure>
         <div class="card-body">
-             <h2 class="card-title">Project Name</h2>
-             <p className='text-gray font-medium'>Project Type</p>  
+             <h2 class="card-title">MeetTech Lab</h2>
+             <p className='text-gray font-medium'>Tech Site</p>  
         </div>
         </div>
         <div class="card card-compact w-96 bg-base-100 shadow-xl ">
-  -         <figure><img src="https://i.ibb.co/gyFWdN2/software.jpg" alt="Shoes" /></figure>
+  -         <figure><img src="https://i.ibb.co/r4qvvpW/Web-2.png" alt="Shoes" /></figure>
         <div class="card-body">
-             <h2 class="card-title">Project Name</h2>
-             <p className='text-gray font-medium'>Project Type</p>  
+             <h2 class="card-title">gAbroad</h2>
+             <p className='text-gray font-medium'>Consultancy Site</p>  
         </div>
         </div>
         <div class="card card-compact w-96 bg-base-100 shadow-xl ">
-  -         <figure><img src="https://i.ibb.co/gyFWdN2/software.jpg" alt="Shoes" /></figure>
+  -         <figure><img src="https://i.ibb.co/sQ36fFw/Web-3.png" alt="Shoes" /></figure>
         <div class="card-body">
-             <h2 class="card-title">Project Name</h2>
-             <p className='text-gray font-medium'>Project Type</p>  
+             <h2 class="card-title">Suit Resort</h2>
+             <p className='text-gray font-medium'>Resort & Restaurant Site</p>  
+        </div>
+        </div>
+        <div class="card card-compact w-96 bg-base-100 shadow-xl ">
+  -         <figure><img src="https://i.ibb.co/xGxFNFW/Web-4.jpg" alt="Shoes" /></figure>
+        <div class="card-body">
+             <h2 class="card-title">Vegan Mart</h2>
+             <p className='text-gray font-medium'>E-Commerce Site</p>  
         </div>
         </div>
     </div>

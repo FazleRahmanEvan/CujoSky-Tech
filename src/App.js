@@ -17,6 +17,7 @@ import Content from './Components/OurPrice/Content/Content';
 import About from './Components/About/About';
 import Article2 from './Components/Blog/Article2';
 import Article3 from './Components/Blog/Article3';
+import AppDevelopment from './Components/AllWork/AppDevelopment';
 
 
 // import About from './Pages/About';
@@ -38,7 +39,7 @@ function App() {
 <Route path="/article3" element ={<Article3></Article3>}></Route>
 <Route path="/managementSoftware" element ={<Management></Management>}></Route>
 <Route path="/webDesign" element ={<WebDesign></WebDesign>}></Route>
-<Route path="/appdevelopment" element ={<WebDesign></WebDesign>}></Route>
+<Route path="/appdevelopment" element ={<AppDevelopment></AppDevelopment>}></Route>
 <Route path="/meettechdashboard" element ={<Dashboard></Dashboard>}></Route>
 <Route path="/login" element ={<Dashboard></Dashboard>}></Route>
 
