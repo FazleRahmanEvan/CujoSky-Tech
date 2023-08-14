@@ -58,35 +58,35 @@ const AllWork = () => {
         </div>
         </div>
         <div class="card card-compact w-96 bg-base-100 shadow-xl ">
-          <figure><img src="https://i.ibb.co/Lpm99HR/Manage-1.jpg" alt="Shoes" /></figure>
+          <figure><img src="https://i.ibb.co/rFT327V/Manage-1-1.jpg" alt="Shoes" /></figure>
         <div class="card-body">
              <h2 class="card-title">Document Equity</h2>
              <p className='text-gray font-medium'>Project Type</p>  
         </div>
         </div>
         <div class="card card-compact w-96 bg-base-100 shadow-xl ">
-          <figure><img src="https://i.ibb.co/pvq8wGf/Manage-2.jpg" alt="Shoes" /></figure>
+          <figure><img src="https://i.ibb.co/TMxZ7bx/Manage-2-1.jpg" alt="Shoes" /></figure>
         <div class="card-body">
              <h2 class="card-title">Resort Dashboard</h2>
              <p className='text-gray font-medium'>Project Type</p>  
         </div>
         </div>
         <div class="card card-compact w-96 bg-base-100 shadow-xl ">
-         <figure><img src="https://i.ibb.co/qdBSkdB/Manage-3.png" alt="Shoes" /></figure>
+         <figure><img src="https://i.ibb.co/3djRzkj/Manage-3.jpg" alt="Shoes" /></figure>
         <div class="card-body">
              <h2 class="card-title">Mediinfi</h2>
              <p className='text-gray font-medium'>Project Type</p>  
         </div>
         </div>
         <div class="card card-compact w-96 bg-base-100 shadow-xl ">
-        <figure><img src="https://i.ibb.co/TkHKTGS/Manage-4.jpg" alt="Shoes" /></figure>
+        <figure><img src="https://i.ibb.co/cFmpvyj/Manage-4-1.jpg" alt="Shoes" /></figure>
         <div class="card-body">
              <h2 class="card-title">Dream Solution</h2>
              <p className='text-gray font-medium'>Project Type</p>  
         </div>
         </div>
         <div class="card card-compact w-96 bg-base-100 shadow-xl ">
-          <figure><img src="https://i.ibb.co/j6hbV0S/App-4.jpg" alt="Shoes" /></figure>
+          <figure><img src="https://i.ibb.co/tb5bmTh/App-1.png" alt="Shoes" /></figure>
         <div class="card-body">
              <h2 class="card-title">Sareng</h2>
              <p className='text-gray font-medium'>Project Type</p>  

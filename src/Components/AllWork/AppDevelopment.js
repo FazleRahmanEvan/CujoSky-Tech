@@ -34,7 +34,7 @@ const AppDevelopment = () => {
       
       
         <div class="card card-compact w-96 bg-base-100 shadow-xl ">
-          <figure><img src="https://i.ibb.co/j6hbV0S/App-4.jpg" alt="Shoes" /></figure>
+          <figure><img src="https://i.ibb.co/tb5bmTh/App-1.png " alt="Shoes" /></figure>
         <div class="card-body">
              <h2 class="card-title">Sareng</h2>
              <p className='text-gray font-medium'>Project Type</p>  

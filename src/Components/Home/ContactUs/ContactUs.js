@@ -6,7 +6,7 @@ const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('gmail','CujoSky', e.target, 'Nk8k9Ap_fZYvnj-Mr')
+    emailjs.sendForm('service_1m2hb7e', 'template_q1dygsg', form.current, 'Nk8k9Ap_fZYvnj-Mr')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -35,7 +35,7 @@ const ContactUs = () => {
             className="max-w-sm rounded-lg "
           />
         </div>
-        <form id='contact' ref={form} onSubmit={sendEmail} >
+        <form  ref={form} onSubmit={sendEmail} >
         <div className="sm:text-center">
           <h1 className="text-start text-gray-400 text-xl font-medium mb-5 ">
             Get in Touch
