@@ -26,7 +26,7 @@ const Footer = () => {
         <Link to="/blogs"> <a class="link link-hover mt-4">Blogs</a></Link>
         <Link to="/about"><a class="link link-hover mt-4">About</a> </Link>
         <Link to="/ourWork"> <a class="link link-hover mt-4">Our Works</a> </Link>
-        <Link to="/ourPrice"> <a class="link link-hover mt-4">Our Services</a> </Link>
+        <Link to="/ourServices"> <a class="link link-hover mt-4">Our Services</a> </Link>
      
         </div> 
         <div className='mt-36 mb-20'>

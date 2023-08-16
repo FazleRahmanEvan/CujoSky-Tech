@@ -11,13 +11,14 @@ import Home from './Components/Home/Home';
 import Footer from './Components/Shared/Footer';
 
 import Navbar from './Components/Shared/Navbar';
-import OurPrice from './Components/OurPrice/OurPrice';
+
 import UIUXDesign from './Components/OurPrice/UIUXDesign/UIUXDesign';
 import Content from './Components/OurPrice/Content/Content';
 import About from './Components/About/About';
 import Article2 from './Components/Blog/Article2';
 import Article3 from './Components/Blog/Article3';
 import AppDevelopment from './Components/AllWork/AppDevelopment';
+import OurPrice from './Components/OurPrice/OurPrice';
 
 
 // import About from './Pages/About';
@@ -30,7 +31,7 @@ function App() {
 <Route path="/" element ={<Home></Home>}></Route>
 <Route path="/blogs" element ={<BlogDetails></BlogDetails>}></Route>
 <Route path="/ourWork" element ={<AllWork></AllWork>}></Route>
-<Route path="/ourPrice" element ={<OurPrice></OurPrice>}></Route>
+<Route path="/ourServices" element ={<OurPrice></OurPrice>}></Route>
 <Route path="/about" element ={<About></About>}></Route>
 <Route path="/ourContent" element ={<Content></Content>}></Route>
 <Route path="/uiuxDesign" element ={<UIUXDesign></UIUXDesign>}></Route>

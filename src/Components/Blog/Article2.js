@@ -6,7 +6,7 @@ import LatestSideBlog from './LatestSideBlog';
 const Article2 = () => {
     return (
         <div>
-        <div  className='flex bg-zinc-900 mb-4 justify-evenly flex-col lg:flex-row p-6'>
+        <div  className='flex bg-zinc-900 mb-4 justify-evenly flex-col lg:flex-row p-6 lg:mt-12 mt-28 '>
            <div>
            <h1 className='text-2xl font-semibold font-abc text-white'>Stay informed on our articles or events!</h1>
            </div>

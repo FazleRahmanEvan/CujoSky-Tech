@@ -44,7 +44,7 @@ can help you with all your software development needs. Our experienced developer
 custom software solutions that meet your specific requirements. Whether you need a new
 website, mobile app, or enterprise-level software, we can help.</p>
 <div className='text-center'>
-<button class="text-white text-center btn-sm btn-primary rounded-full mt-3"><Link to="/ourWork">See More</Link></button>
+<button class="text-white text-center btn-sm btn-primary rounded-full mt-3"><Link to="/managementSoftware">See More</Link></button>
 </div>
  </div>
   
@@ -65,7 +65,7 @@ and SEO-friendly website? Look no further than CujoSky Tech. We have a team of e
 designers and developers who can create a website that meets your needs and exceeds your
 expectations.</p>
 <div className='text-center'>
-<button class="text-white text-center btn-sm btn-primary rounded-full mt-3"><Link to="/ourWork">See More</Link></button>
+<button class="text-white text-center btn-sm btn-primary rounded-full mt-3"><Link to="/webDesign">See More</Link></button>
 </div>
  </div>
     </div>
@@ -84,7 +84,7 @@ custom app development services for businesses of all sizes. Our developers have
 track record of success in developing high-quality, user-friendly apps that meet the specific
 needs of our clients.</p>
  <div className='text-center'>
-<button class="text-white text-center btn-sm btn-primary rounded-full mt-3"><Link to="/ourWork">See More</Link></button>
+<button class="text-white text-center btn-sm btn-primary rounded-full mt-3"><Link to="/appdevelopment">See More</Link></button>
 </div>
  </div>
   
@@ -106,7 +106,7 @@ business is different, and we work closely with our clients to develop customize
 strategies that meet their specific needs.
 </p>
  <div className='text-center'>
-<button class="text-white text-center btn-sm btn-primary rounded-full mt-3"><Link to="/ourWork">See More</Link></button>
+<button class="text-white text-center btn-sm btn-primary rounded-full mt-3"><Link to="/ourServices">See More</Link></button>
 </div>
  </div>
     </div>

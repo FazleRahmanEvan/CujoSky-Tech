@@ -13,7 +13,7 @@ const LatestSideBlog = () => {
            </div>
              </div>
              <div>
-           <p className='text-sm font-semibold'>Best and Unique App Ideas in 2024 for Startups.</p>
+           <p className='text-sm font-semibold'>Best and Unique App Ideas</p>
              </div>
          </div></Link>
          <Link to="/article2"><div className='flex justify-evenly mt-4 gap-2 mb-2'>
@@ -23,7 +23,7 @@ const LatestSideBlog = () => {
            </div>
              </div>
              <div>
-           <p className='text-sm font-semibold'>How to Hire the Best Software Company for Your Startup.</p>
+           <p className='text-sm font-semibold'>How to Hire the Best </p>
              </div>
          </div></Link>
          <Link to="/article2"><div className='flex justify-evenly mt-4 gap-2 mb-2'>
@@ -33,7 +33,7 @@ const LatestSideBlog = () => {
            </div>
              </div>
              <div>
-           <p className='text-sm font-semibold'>How to Find the Right Digital Marketing Agency  </p>
+           <p className='text-sm font-semibold'>How to Find the Right</p>
              </div>
          </div></Link>
         

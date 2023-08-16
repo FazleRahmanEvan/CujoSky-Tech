@@ -174,7 +174,7 @@ const SEOPriceCard = () => {
     <p className='ml-3'>Small to medium businesses.</p>
     <div className='divider'></div>
     <div>
-        <h2 className='text-3xl font-bold text-center mr-8'>$100</h2>
+        <h2 className='text-3xl font-bold text-center mr-8'>$1000</h2>
         <p className='text-gray-500 text-xl font-semibold mt-3 mb-3'>MONTHLY CONTRACT</p>
     </div>
     <div className='divider'></div>

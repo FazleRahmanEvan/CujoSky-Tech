@@ -21,7 +21,7 @@ const Navbar = () => {
       <li><a href="/blogs">Blogs</a></li>
       <li><a href="/about">About</a></li>
       <li><a href="/ourWork">Our Works</a></li>
-      <li><a href="/ourPrice">Our Services</a></li>
+      <li><a href="/ourServices">Our Services</a></li>
     </ul>
     
 
@@ -35,7 +35,7 @@ const Navbar = () => {
       <li><a href="blogs">Blogs</a></li>
       <li><a href="/about">About</a></li>
       <li><a href="/ourWork">Our Works</a></li>
-      <li><a href="/ourPrice">Our Services</a></li>
+      <li><a href="/ourServices">Our Services</a></li>
       </ul>
     </div>
 
