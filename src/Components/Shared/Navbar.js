@@ -18,10 +18,10 @@ const Navbar = () => {
   <div class="flex-none hidden lg:flex">
     <ul class="menu menu-horizontal pr-8 font-medium text-xl">
       <li><Link to="/">Home</Link></li>
-      <li><a href="/blogs">Blogs</a></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/ourWork">Our Works</a></li>
-      <li><a href="/ourServices">Our Services</a></li>
+      <li><Link to="/blogs">Blogs</Link></li>
+      <li><Link to="/about">About</Link></li>
+      <li><Link to="/ourWork">Our Works</Link></li>
+      <li><Link to="/ourServices">Our Services</Link></li>
     </ul>
     
 
@@ -32,10 +32,10 @@ const Navbar = () => {
       </label>
       <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 shadow bg-base-100 rounded-box w-40">
       <li><Link to="/">Home</Link></li>
-      <li><a href="blogs">Blogs</a></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/ourWork">Our Works</a></li>
-      <li><a href="/ourServices">Our Services</a></li>
+      <li><Link to="/blogs">Blogs</Link></li>
+      <li><Link to="/about">About</Link></li>
+      <li><Link to="/ourWork">Our Works</Link></li>
+      <li><Link to="/ourServices">Our Services</Link></li>
       </ul>
     </div>
 
