@@ -1,6 +1,21 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 
 const SEOPriceCard = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_1m2hb7e', 'template_q1dygsg', form.current, 'Nk8k9Ap_fZYvnj-Mr')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+  };
     return (
         <div className='grid grid-cols-1 lg:grid-cols-3 lg:ml-32 lg:px-20 px-6'>
             <div className="card w-80 bg-base-100 shadow-xl border-4 border-primary mt-24 mb-28">
@@ -47,7 +62,7 @@ const SEOPriceCard = () => {
     <div className='mt-5 mb-3 ml-1'>
     <button className="bg-stone-800 hover:bg-slate-800 text-white w-56 h-12  font-semibold text-xl rounded-md" onClick={()=>window.my_modal_1.showModal()}>Start Live Chat</button>
 <dialog id="my_modal_1" className="modal">
-  <form method="dialog" className="modal-box">
+<form ref={form} onSubmit={sendEmail} method="dialog" className="modal-box">
   <div className="grid grid-cols-1  gap-5">
             <input
               type="text"
@@ -75,11 +90,16 @@ const SEOPriceCard = () => {
               rows={6}
             ></textarea>
           </div>
-    <div className="modal-action">
+    <div className='mt-6 text-center'>
       {/* if there is a button in form, it will close the modal */}
       <button className="w-16 h-10 bg-primary text-white hover:bg-gradient-to-br from-primary to-secondary  hover:text-white">Send</button>
     </div>
+            </form>
+
+            <form method="dialog" className="modal-backdrop">
+    <button>close</button>
   </form>
+
 </dialog>
     </div>
 
@@ -129,7 +149,7 @@ const SEOPriceCard = () => {
     <div className='mt-5 mb-3 ml-1'>
     <button className="bg-amber-200  hover:bg-amber-100  w-56 h-12 text-black  font-semibold text-xl rounded-md" onClick={()=>window.my_modal_2.showModal()}>Start Live Chat</button>
 <dialog id="my_modal_2" className="modal">
-  <form method="dialog" className="modal-box">
+<form ref={form} onSubmit={sendEmail} method="dialog" className="modal-box">
   <div className="grid grid-cols-1  gap-5">
             <input
               type="text"
@@ -157,11 +177,16 @@ const SEOPriceCard = () => {
               rows={6}
             ></textarea>
           </div>
-    <div className="modal-action">
+          <div className='mt-6 text-center'>
       {/* if there is a button in form, it will close the modal */}
       <button className="w-16 h-10 bg-primary text-white hover:bg-gradient-to-br from-primary to-secondary  hover:text-white">Send</button>
     </div>
+            </form>
+
+            <form method="dialog" className="modal-backdrop">
+    <button>close</button>
   </form>
+  
 </dialog>
     </div>
 
@@ -210,7 +235,7 @@ const SEOPriceCard = () => {
     <div className='mt-5 mb-3 ml-1'>
     <button className="bg-stone-800 hover:bg-slate-800 text-white   w-56 h-12  font-semibold text-xl rounded-md" onClick={()=>window.my_modal_3.showModal()}>Start Live Chat</button>
 <dialog id="my_modal_3" className="modal">
-  <form method="dialog" className="modal-box">
+<form ref={form} onSubmit={sendEmail} method="dialog" className="modal-box">
   <div className="grid grid-cols-1  gap-5">
             <input
               type="text"
@@ -238,10 +263,14 @@ const SEOPriceCard = () => {
               rows={6}
             ></textarea>
           </div>
-    <div className="modal-action">
+          <div className='mt-6 text-center'>
       {/* if there is a button in form, it will close the modal */}
       <button className="w-16 h-10 bg-primary text-white hover:bg-gradient-to-br from-primary to-secondary  hover:text-white">Send</button>
     </div>
+            </form>
+
+            <form method="dialog" className="modal-backdrop">
+    <button>close</button>
   </form>
 </dialog>
     </div>
