@@ -20,7 +20,7 @@ const SEOPriceCard = () => {
         <div className='grid grid-cols-1 lg:grid-cols-3 lg:ml-32 lg:px-20 px-6'>
             <div className="card w-80 bg-base-100 shadow-xl border-4 border-primary mt-24 mb-28">
   <div className="card-body ml-4">
-  <button className="bg-gray-200 hover:bg-gray-500 hover:text-white w-48 h-8 mt-6 text-xl ml-4 text-center font-semibold rounded">BRONZE PLAN</button>
+  <button className="bg-gray-200  w-48 h-8 mt-6 text-xl ml-4 text-center font-semibold rounded">BRONZE PLAN</button>
     <p className='ml-3'>Small to medium businesses.</p>
     <div className='divider'></div>
     <div>
@@ -110,7 +110,7 @@ const SEOPriceCard = () => {
         <div className="card w-80 bg-gradient-to-br from-secondary to-primary mt-10 shadow-xl border-4 border-black mb-36">
   <div className="card-body ml-4">
   <button className="bg-gray-100  hover:text-black w-52 h-10 mt-6 text-2xl ml-4 text-center font-semibold rounded">SILVER PLAN</button>
-    <p className='ml-3 text-white'>Small to medium businesses.</p>
+    <p className='ml-3 text-white'>Medium to large businesses.</p>
     <div className='divider divider-white'></div>
     <div>
         <h2 className='text-5xl text-white font-bold text-center mr-8'>$800</h2>
@@ -132,12 +132,12 @@ const SEOPriceCard = () => {
         <p className='mt-3 mb-2 text-white'>Full Website Audit</p>
         <p className='mt-3 mb-2 text-white'>Site Optimization</p>
         <p className='mt-3 mb-2 text-white'>Contetnt Strategy</p>
-        <p className='mt-3 mb-2 text-white'>1x Monthly Blog Post</p>
+        <p className='mt-3 mb-2 text-white'>3x Monthly Blog Post</p>
     </div>
 
     <div className='text-center'>
         <h2 className='text-xl font-bold text-white'>Off Site</h2>
-        <p className='mt-3 mb-2 text-white'>2x Guest Post Links</p>
+        <p className='mt-3 mb-2 text-white'>3x Guest Post Links</p>
     </div>
 
     <div className='text-center'>
@@ -195,8 +195,8 @@ const SEOPriceCard = () => {
 
         <div className="card w-80 bg-base-100 shadow-xl border-4 border-primary mt-24 mb-28">
   <div className="card-body ml-4">
-  <button className="bg-gray-200 hover:bg-gray-500 hover:text-white w-48 h-8 mt-6 text-xl ml-4 text-center font-semibold rounded">GOLD PLAN</button>
-    <p className='ml-3'>Small to medium businesses.</p>
+  <button className="bg-gray-200  w-48 h-8 mt-6 text-xl ml-4 text-center font-semibold rounded">GOLD PLAN</button>
+    <p className='ml-3'>For websites with 75+ pages</p>
     <div className='divider'></div>
     <div>
         <h2 className='text-3xl font-bold text-center mr-8'>$1000</h2>
@@ -218,12 +218,12 @@ const SEOPriceCard = () => {
         <p className='mt-3 mb-2'>Full Website Audit</p>
         <p className='mt-3 mb-2'>Site Optimization</p>
         <p className='mt-3 mb-2'>Contetnt Strategy</p>
-        <p className='mt-3 mb-2'>1x Monthly Blog Post</p>
+        <p className='mt-3 mb-2'>4x Monthly Blog Post</p>
     </div>
 
     <div className='text-center'>
         <h2 className='text-xl font-bold'>Off Site</h2>
-        <p className='mt-3 mb-2'>2x Guest Post Links</p>
+        <p className='mt-3 mb-2'>5x Guest Post Links</p>
     </div>
 
     <div className='text-center'>

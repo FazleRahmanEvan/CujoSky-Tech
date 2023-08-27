@@ -28,7 +28,7 @@ const Content = () => {
         <div className=" w-80 uibronheight  bg-base-100 shadow-xl border-4 rounded-lg border-primary mt-28 mb-40">
 <div className="text-center">
    
-<button className="bg-gray-200 hover:bg-gray-500 hover:text-white w-48 h-8 mt-20 text-xl ml-4 text-center font-semibold rounded">BRONZE PLAN</button>
+<button className="bg-gray-200  w-48 h-8 mt-20 text-xl ml-4 text-center font-semibold rounded">BRONZE PLAN</button>
 <p className='ml-6 mt-3'>Content Ranking Guarantee</p>
 <div className='divider'></div>
 <div>
@@ -42,6 +42,7 @@ const Content = () => {
     <p className=' mb-2'>Per 1000/w = $15 / 1200 BDT</p>
     <p className='mt-3 mb-2'>Professional Writers</p>
     <p className='mt-3 mb-2'>Quick Proofread</p>
+    <p className='mt-3 mb-2'>Revision 02</p>
     <p className='mt-3 mb-2'>Standard Support</p>
     <p className='mt-3 mb-2'>Premium Grammarly Check</p>
     <p className='mt-3 mb-2'>Plagiarism Check</p>
@@ -172,7 +173,7 @@ const Content = () => {
 
     <div className="w-80 uigoldheight bg-base-100 shadow-xl border-4 rounded-lg border-primary mt-28 mb-40">
     <div className="text-center">
-<button className="bg-gray-200 hover:bg-gray-500 hover:text-white w-48 h-8 mt-20 text-xl ml-4 text-center font-semibold rounded">GOLD PLAN</button>
+<button className="bg-gray-200  w-48 h-8 mt-20 text-xl ml-4 text-center font-semibold rounded">GOLD PLAN</button>
 <p className='ml-6 mt-3'>Content Ranking Guarantee</p>
 <div className='divider'></div>
 <div>
@@ -183,11 +184,11 @@ const Content = () => {
 
 <div className='text-center'>
     <h2 className='text-xl font-bold mb-4'>PREMIUM</h2>
-    <p className=' mb-2'>Per 1000/w = $15 / 1200 BDT</p>
+    <p className=' mb-2'>Per 1000/w = $30 / 2500 BDT</p>
     <p className='mt-1 mb-2'>Professional Writers</p>
     <p className='mt-1 mb-2'>SEO Purpose</p>
     <p className='mt-1 mb-2'>Quick Proofread</p>
-    <p className='mt-1 mb-2'>Revision 02</p>
+    <p className='mt-1 mb-2'>Revision 05</p>
     <p className='mt-1 mb-2'>Standard Support</p>
     <p className='mt-1 mb-2'>Premium Grammarly Check</p>
     <p className='mt-1 mb-2'>Plagiarism Check</p>
