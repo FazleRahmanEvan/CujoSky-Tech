@@ -33,9 +33,7 @@ const Footer = () => {
           <span class="footer-title">Contact Us</span> 
           <div className="grid grid-flow-col gap-2 ">
           <a className='mt-1'><ImLocation></ImLocation></a>
-          <p>Amhurst Road, Stoke Newington,
-            <br />
-             North London N16 7UN,</p>
+          <p>Watson Close London N16 8QG</p>
           </div>
           {/* <div className="grid grid-flow-col gap-2 mt-1 mb-2 ">
           <a><FaPhoneAlt></FaPhoneAlt></a>
@@ -43,7 +41,7 @@ const Footer = () => {
           </div> */}
           <div className="grid grid-flow-col gap-2 mt-6 ">
           <a className='mt-1'><IoMailSharp></IoMailSharp></a>
-          <p >www.cujosky.co.uk</p>
+          <p>info@cujosky.co.uk</p>
           </div>
       
         </div>
