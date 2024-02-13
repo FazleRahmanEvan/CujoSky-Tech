@@ -33,12 +33,16 @@ const Footer = () => {
           <span class="footer-title">Contact Us</span> 
           <div className="grid grid-flow-col gap-2 ">
           <a className='mt-1'><ImLocation></ImLocation></a>
-          <p>Watson Close London N16 8QG</p>
+          <p>B-1, 189 Whitechapel Road,London E1 1DN</p>
           </div>
-          {/* <div className="grid grid-flow-col gap-2 mt-1 mb-2 ">
+          <div className="grid grid-flow-col gap-2 mt-1 mb-2 ">
           <a><FaPhoneAlt></FaPhoneAlt></a>
-          <p>+8801755-460159</p>
-          </div> */}
+          <p>Telephone: 02072472442</p>
+          </div>
+          <div className="grid grid-flow-col gap-2 mt-1 mb-2 ">
+          <a><FaPhoneAlt></FaPhoneAlt></a>
+          <p>Mobile: 07877507539</p>
+          </div>
           <div className="grid grid-flow-col gap-2 mt-6 ">
           <a className='mt-1'><IoMailSharp></IoMailSharp></a>
           <p>info@cujosky.co.uk</p>

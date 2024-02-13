@@ -11,15 +11,9 @@ import Home from './Components/Home/Home';
 import Footer from './Components/Shared/Footer';
 
 import Navbar from './Components/Shared/Navbar';
-
+import OurPrice from './Components/OurPrice/OurPrice';
 import UIUXDesign from './Components/OurPrice/UIUXDesign/UIUXDesign';
 import Content from './Components/OurPrice/Content/Content';
-import About from './Components/About/About';
-import Article2 from './Components/Blog/Article2';
-import Article3 from './Components/Blog/Article3';
-import AppDevelopment from './Components/AllWork/AppDevelopment';
-import OurPrice from './Components/OurPrice/OurPrice';
-
 
 // import About from './Pages/About';
 
@@ -31,16 +25,13 @@ function App() {
 <Route path="/" element ={<Home></Home>}></Route>
 <Route path="/blogs" element ={<BlogDetails></BlogDetails>}></Route>
 <Route path="/ourWork" element ={<AllWork></AllWork>}></Route>
-<Route path="/ourServices" element ={<OurPrice></OurPrice>}></Route>
-<Route path="/about" element ={<About></About>}></Route>
+<Route path="/ourPrice" element ={<OurPrice></OurPrice>}></Route>
 <Route path="/ourContent" element ={<Content></Content>}></Route>
 <Route path="/uiuxDesign" element ={<UIUXDesign></UIUXDesign>}></Route>
-<Route path="/article1" element ={<Artical></Artical>}></Route>
-<Route path="/article2" element ={<Article2></Article2>}></Route>
-<Route path="/article3" element ={<Article3></Article3>}></Route>
+<Route path="/article" element ={<Artical></Artical>}></Route>
 <Route path="/managementSoftware" element ={<Management></Management>}></Route>
 <Route path="/webDesign" element ={<WebDesign></WebDesign>}></Route>
-<Route path="/appdevelopment" element ={<AppDevelopment></AppDevelopment>}></Route>
+<Route path="/appdevelopment" element ={<WebDesign></WebDesign>}></Route>
 <Route path="/meettechdashboard" element ={<Dashboard></Dashboard>}></Route>
 <Route path="/login" element ={<Dashboard></Dashboard>}></Route>
 
